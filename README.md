@@ -10,7 +10,7 @@ Once you have acquired a license key for the Content-Processor, getting the plug
 
 ### Installation
 
-Download the latest release from the [Releases page](https://github.com/QuizCo-GmbH/moodle-plugin/releases) of this repository. The included file **content_processor.zip** can be installed in your Moodle instance according to [the official instructions](https://docs.moodle.org/401/en/Installing_plugins#Installing_via_uploaded_ZIP_file) or by following these steps:
+Download the latest release from the [Releases page](https://github.com/QuizCo-GmbH/CP-Moodle/releases) of this repository. The included file **content_processor.zip** can be installed in your Moodle instance according to [the official instructions](https://docs.moodle.org/401/en/Installing_plugins#Installing_via_uploaded_ZIP_file) or by following these steps:
 
 1. When having the necessary privileges, navigate to _Administration_ → _Site administration_ → _Plugins_ → _Install plugins_
 2. Make sure the ZIP file is named exactly "**content_processor.zip**". Upload it using the file selection or drag-and-drop area.
