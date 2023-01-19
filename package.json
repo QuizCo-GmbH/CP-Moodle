@@ -1,0 +1,19 @@
+{
+  "name": "cp-moodle",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "setupLocalDev": "npm config set preid RC",
+    "postinstall": "npm run setupLocalDev",
+    "postversion": "git push && git push --tags",
+    "rc": "npm version prerelease -m \"Add release candidate %s.\"",
+    "init:patch": "npm version prepatch -m \"Initialize release %s.\"",
+    "init:minor": "npm version preminor -m \"Initialize release %s.\"",
+    "init:major": "npm version premajor -m \"Initialize release %s.\"",
+    "release:patch": "npm version patch -m \"Patch v%s.\"",
+    "release:minor": "npm version minor -m \"Minor upgrade to v%s.\"",
+    "release:major": "npm version major -m \"Major upgrade to version %s.\""
+  },
+  "devDependencies": {}
+}
