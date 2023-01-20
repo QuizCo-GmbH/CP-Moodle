@@ -69,8 +69,8 @@ class HANDSHAKE_STEPS {
  */
 class CP_APP {
 	const
-		HOSTNAME = 'http://localhost:3000',
-		// HOSTNAME = 'https://content-processor-api-app.web.app',
+		// HOSTNAME = 'http://localhost:3000',
+		HOSTNAME = 'https://content-processor-api-app.web.app',
 
 		PARAM_ORIGIN = 'src',
 
